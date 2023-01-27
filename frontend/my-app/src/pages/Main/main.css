@@ -6,11 +6,25 @@
     padding-right: 2vh;    
     margin-top: -18vh;
     background-color: rgba(0, 0, 0, 0.8);
+    z-index: 2;
 }
 
+.headshot{
+    height: 40vh;
+    border: yellow dotted;
+    z-index: 7;
+    padding-left: 10vw;
+}
+.MainPage h1{
+    padding-left: 38vw;
+    font-size: 4vw;
+    margin: 0vh;
+    font-family: michromaregular;
+    padding-right: 2vw;
+}
 .MainPage p{
     padding-left: 38vw;
-    font-size: 6vw;
+    font-size: 2vw;
     margin: 0vh;
     font-family: michromaregular;
     padding-right: 2vw;
@@ -22,4 +36,16 @@
     font-size: 2vw !important;
 }
 
+.languageSvg{
+    height: 5vh;
+}
 
+.svgDiv{
+    
+    padding: 2vh;
+}
+
+.gitGraph{
+    margin-left: 45vw;
+    margin-top: 10vh;
+}
