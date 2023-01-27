@@ -4,8 +4,8 @@
     color: white;
     height: 70vh;
     padding-right: 2vh;    
-    /* border: rgb(255, 45, 45) solid; */
     margin-top: -18vh;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 .MainPage p{
