@@ -1,0 +1,12 @@
+.logoContainer{
+    height: 160px;
+    background-color: rgb(255, 49, 49);
+    width: 160px;
+    margin-left: 7%;
+    margin-top: 5%;
+    box-shadow: 5vh 5vh 900px 25vh rgba(255, 49, 49, 0.4);
+    border-radius: 50%;
+    
+}
+
+
