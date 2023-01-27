@@ -1,12 +1,25 @@
-.logoContainer{
-    height: 160px;
-    background-color: rgb(255, 49, 49);
-    width: 160px;
-    margin-left: 7%;
-    margin-top: 5%;
-    box-shadow: 5vh 5vh 900px 25vh rgba(255, 49, 49, 0.4);
-    border-radius: 50%;
-    
+
+
+.MainPage{
+    color: white;
+    height: 70vh;
+    padding-right: 2vh;    
+    /* border: rgb(255, 45, 45) solid; */
+    margin-top: -18vh;
+}
+
+.MainPage p{
+    padding-left: 38vw;
+    font-size: 6vw;
+    margin: 0vh;
+    font-family: michromaregular;
+    padding-right: 2vw;
+}
+
+
+.blurb{
+    font-family: michromaregular;
+    font-size: 2vw !important;
 }
 
 

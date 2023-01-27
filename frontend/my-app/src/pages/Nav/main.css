@@ -1,0 +1,71 @@
+.logoContainer{
+    height: 160px;
+    background-color: rgb(255, 49, 49);
+    width: 160px;
+    margin-left: 7%;
+    box-shadow: 5vh 2.5vh 900px 25vh rgba(255, 49, 49, 0.4);
+    border-radius: 50%;
+    animation: glow 5s ease infinite;
+}
+
+
+
+
+
+nav{
+    
+    padding: 10vh;
+    display: flex;
+    justify-content: flex-start;
+    gap: 35vw;
+}
+
+
+.linksContainer{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1vh;
+    gap: 15vw;
+    color: rgb(255, 49, 49);
+    font-family: michromaregular;
+}
+
+.linksContainer p:hover{
+    color: white;
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 1vh 1.5vh 900px 25vh(255, 49, 49, 0.4);
+        
+    }
+    10%{
+        box-shadow: 1vh 1.5vh 600px 20vh rgb(255, 49, 49, 0.4);
+   }
+    25%{
+        box-shadow: 1vh 1.5vh 900px 25vh rgb(255, 49, 49, 0.4);
+   }
+    45%{
+        box-shadow: 1vh 1.5vh 600px 20vh rgb(255, 49, 49, 0.4);
+   }
+    60%{
+        box-shadow: 1vh 1.5vh 900px 25vh rgb(255, 49, 49, 0.4);
+   }
+    75%{
+        box-shadow: 1vh 1.5vh 600px 20vh rgb(255, 49, 49, .4);
+   }
+    100%{ 
+        box-shadow: 1vh 1.5vh 900px 25vh rgb(255, 49, 49, 0.4);
+   }
+}
+
+@keyframes fizzle {
+    0% {
+        transform: skewX(0deg);
+    }
+    95%{
+        transform: skewX(25deg);
+   }
+    
+}
+
