@@ -6,35 +6,52 @@
     padding-right: 2vh;    
     margin-top: -18vh;
     background-color: rgba(0, 0, 0, 0.8);
-    z-index: 2;
+    display:flex;
+    flex-flow:column wrap;
+}
+
+.profile{
+    order: 1;
+
+    height: 60vh;
+    width: 22vw;
+    padding-top: 16vh;
+    padding-left:7vw;  
 }
 
 .headshot{
-    height: 40vh;
-    border: yellow dotted;
-    z-index: 7;
-    padding-left: 10vw;
+    border: white solid 8px;
 }
+
 .MainPage h1{
-    padding-left: 38vw;
+    padding-top: 10vh;
     font-size: 4vw;
     margin: 0vh;
     font-family: michromaregular;
-    padding-right: 2vw;
+    order:2;
+    height: 15vh;
+    width: 45vw;
+    /* padding-left: 5vw; */
 }
 .MainPage p{
-    padding-left: 38vw;
-    font-size: 2vw;
+    /* padding-left: 38vw; */
+    font-size: 1.2vw;
     margin: 0vh;
     font-family: michromaregular;
     padding-right: 2vw;
+    order:3;
+    width: 60vw;
+    /* padding-left: 5vw; */
+
 }
 
+.gitGraph{
+    order: 4;
 
-.blurb{
-    font-family: michromaregular;
-    font-size: 2vw !important;
+    margin-left: 0% !important;
+    /* padding-left: 5vw; */
 }
+
 
 .languageSvg{
     height: 5vh;

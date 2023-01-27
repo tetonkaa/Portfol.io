@@ -28,6 +28,7 @@ nav{
     gap: 15vw;
     color: rgb(255, 49, 49);
     font-family: michromaregular;
+    font-size: 1vw;
 }
 
 .linksContainer p:hover{
