@@ -5,7 +5,8 @@
     margin-left: 7%;
     box-shadow: 5vh 2.5vh 900px 25vh rgba(255, 49, 49, 0.4);
     border-radius: 50%;
-    animation: glow 5s ease infinite;
+    animation: glow 15s ease infinite;
+    border: white solid 2px
 }
 
 
@@ -38,7 +39,7 @@ nav{
 @keyframes glow {
     0% {
         box-shadow: 1vh 1.5vh 900px 25vh(255, 49, 49, 0.4);
-        
+        background-color: rgb(255, 49, 49);
     }
     10%{
         box-shadow: 1vh 1.5vh 600px 20vh rgb(255, 49, 49, 0.4);
@@ -48,12 +49,14 @@ nav{
    }
     45%{
         box-shadow: 1vh 1.5vh 600px 20vh rgb(255, 49, 49, 0.4);
+        background-color: rgb(255, 49, 49);
    }
     60%{
         box-shadow: 1vh 1.5vh 900px 25vh rgb(255, 49, 49, 0.4);
    }
     75%{
         box-shadow: 1vh 1.5vh 600px 20vh rgb(255, 49, 49, .4);
+        
    }
     100%{ 
         box-shadow: 1vh 1.5vh 900px 25vh rgb(255, 49, 49, 0.4);
