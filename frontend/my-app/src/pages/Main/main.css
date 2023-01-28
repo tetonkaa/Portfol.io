@@ -21,6 +21,7 @@
 
 .headshot{
     border: white solid 8px;
+    height: 36vh
 }
 
 .MainPage h1{
@@ -62,6 +63,9 @@
     padding: 2vh;
 }
 
+.languageSvg{
+    fill: white;
+}
 .gitGraph{
     margin-left: 45vw;
     margin-top: 10vh;

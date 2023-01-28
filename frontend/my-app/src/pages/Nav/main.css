@@ -6,15 +6,11 @@
     box-shadow: 5vh 2.5vh 900px 25vh rgba(255, 49, 49, 0.4);
     border-radius: 50%;
     animation: glow 15s ease infinite;
-    border: white solid 2px
 }
 
 
 
-
-
-nav{
-    
+nav{    
     padding: 10vh;
     display: flex;
     justify-content: flex-start;

@@ -11,7 +11,7 @@ export default function MainPage() {
         <>
         <div className="MainPage">
             <div className="profile">
-            <img className="headshot" src="https://cdn.dashfight.com/99d742ace4a0519f1b8a8ebf97bbd4f93362bae1.jpg" />
+            <img className="headshot" src="https://i.imgur.com/ikl9fTH.jpg" />
                 <div className="svgDiv">
                 <img className="languageSvg" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
                 <img className="languageSvg" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
