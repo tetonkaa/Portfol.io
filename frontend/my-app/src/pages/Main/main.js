@@ -12,6 +12,7 @@ export default function MainPage() {
         <div className="MainPage">
             <div className="profile">
             <img className="headshot" src="https://i.imgur.com/ikl9fTH.jpg" />
+            
                 <div className="svgDiv">
                 <img className="languageSvg" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
                 <img className="languageSvg" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
@@ -26,7 +27,8 @@ export default function MainPage() {
                 <img className="languageSvg" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" />
                 <img className="languageSvg" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" />
                 <img className="languageSvg" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
-                <img className="languageSvg" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />                               
+                <img className="languageSvg" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
+                                           
                 </div>
             </div>
 

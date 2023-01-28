@@ -59,8 +59,12 @@
 }
 
 .svgDiv{
+    display:flex;
+    flex-wrap: wrap;
+    margin-right: 4vw;
     
-    padding: 2vh;
+    height: 14vh;
+    align-content: space-around
 }
 
 .languageSvg{
@@ -70,3 +74,4 @@
     margin-left: 45vw;
     margin-top: 10vh;
 }
+

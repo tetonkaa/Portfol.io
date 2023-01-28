@@ -21,7 +21,7 @@ export default function Nav() {
       <div className="linksContainer">
       <p>Resume</p>
       <p>Projects</p>
-      <p>Contacts</p>
+      <p>Contact</p>
       
       </div>
     </nav>
