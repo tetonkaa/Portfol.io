@@ -20,9 +20,10 @@ export default function Nav() {
       </div>
       
       <div className="linksContainer">
+      <Link to="/">Main</Link>
+      <Link to='/Projects'>Projects</Link>
       <a href="/assets/Angel Puente Software Engineer.pdf" >Resume</a>
-      <Link to='/Barbershop'>Projects</Link>
-      <Link to='/Barbershop'>Contact</Link>
+      <Link to='/Contact'>Contact</Link>
       
       </div>
     </nav>

@@ -4,13 +4,14 @@ import Nav from './pages/Nav/Nav'
 import './App.css';
 import MainPage from "./pages/Main/main";
 import Resume from "./pages/Resume";
-
+import Projects from "./pages/Projects/index"
 function App() {
   return (
     <>
     <Nav />
     <Routes>
     <Route path="/" element={<MainPage/>}/>
+    <Route path="/Projects" element={<Projects/>}/>
     </Routes>
     </>
   );
