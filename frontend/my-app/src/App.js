@@ -3,13 +3,15 @@ import React, { useState, useEffect } from 'react';
 import Nav from './pages/Nav/Nav'
 import './App.css';
 import MainPage from "./pages/Main/main";
-
+import Resume from "./pages/Resume";
 
 function App() {
   return (
     <>
     <Nav />
-    <MainPage />
+    <Routes>
+    <Route path="/" element={<MainPage/>}/>
+    </Routes>
     </>
   );
 }

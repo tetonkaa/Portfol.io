@@ -4,7 +4,7 @@
     color: white;
     height: 70vh;
     padding-right: 2vh;    
-    margin-top: -18vh;
+    margin-top: -10vh;
     background-color: rgba(0, 0, 0, 0.8);
     display:flex;
     flex-flow:column wrap;
@@ -12,7 +12,6 @@
 
 .profile{
     order: 1;
-
     height: 60vh;
     width: 22vw;
     padding-top: 16vh;

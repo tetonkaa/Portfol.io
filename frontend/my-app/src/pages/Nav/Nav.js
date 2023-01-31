@@ -1,5 +1,5 @@
 import './main.css';
-
+import { Routes, Route, Link, Navigate } from 'react-router-dom'
 
 
 
@@ -12,16 +12,17 @@ export default function Nav() {
       <div>
         <div className="logoContainer">
 
-            <div className="Header glitch" data-glitch="AP">    
-            AP
-            </div>  
+            <div className="Header glitch" data-glitch="AP">
+             AP
+            </div>
+    
         </div>
       </div>
       
       <div className="linksContainer">
-      <p>Resume</p>
-      <p>Projects</p>
-      <p>Contact</p>
+      <a href="/assets/Angel Puente Software Engineer.pdf" >Resume</a>
+      <Link to='/Barbershop'>Projects</Link>
+      <Link to='/Barbershop'>Contact</Link>
       
       </div>
     </nav>
