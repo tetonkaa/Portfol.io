@@ -89,3 +89,30 @@ a:link {
     color: rgb(255, 255, 255);
     text-decoration: none;
   }
+
+
+  @media screen and (max-width: 1216px) {
+    nav{    
+        padding: 10vh;
+        padding-bottom:40vh;
+        display: flex;
+        flex-direction: column !important;
+        width: 40vh;
+    }
+}
+
+
+    @media screen and (max-width: 428px) {
+        nav{    
+            padding: 10vh;
+            padding-bottom:40vh;
+            display: flex;
+            flex-direction: column !important;
+            width: 30vh;
+        }
+        .linksContainer{
+            font-size: 1.2vh;
+        }
+    
+    
+}

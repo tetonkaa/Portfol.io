@@ -34,7 +34,7 @@ export default function MainPage() {
                 </div>
             </div>
 
-            <h1>Angel Puente</h1>
+            <h1 className="myName">Angel Puente</h1>
 
             <p className="blurb">Software Engineer with significant experience in the insurance and finance industry. Skilled in customer service, excelling through standardized work processes, and having an aptitude for learning new coding languages.</p>
 

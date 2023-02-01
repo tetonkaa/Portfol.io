@@ -10,10 +10,15 @@
     border: grooved red;
     text-align: center;
     font-size: 15vh;
-    
+    margin-top: -27vh;
 }
 
 ul {
     list-style-type: none;
     font-family: michromaregular;
+}
+
+@media screen and (max-width: 428px) {
+    .contactContainer {font-size: 15vw;
+    margin-top: 0vh;}
 }
