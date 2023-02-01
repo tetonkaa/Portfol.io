@@ -1,12 +1,11 @@
 .ProjectsPage{
     display: flexbox;
-    Height: 85vh;
+    Height: 100vh;
     border-radius: 8px;
-    background: rgb(255,49,49, .3);
+    background: rgba(0, 0, 0, 0.8);
     padding: 3vh;
-    margin: 4vw;
-    background-size: 47vw 70vh;
-    background-position: -19px -19px;
+    margin: 3vw;
+
 
   
     
@@ -27,8 +26,9 @@
 .projectsheader{
     text-align:center;
     color:white;
-    font-size: 8vh;
+    font-size: 7vh;
     font-family: michromaregular;
+
 }
 
 .projectName{
@@ -80,4 +80,5 @@
     display:flex;
     flex-direction: column;
     align-items: center;
+    
 }

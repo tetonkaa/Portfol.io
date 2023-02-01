@@ -25,9 +25,9 @@ export default function Projects(){
     return(
             <>
         
-        <h1 className="projectsheader">Projects</h1>
 
         <div className="ProjectsPage">
+        <h1 className="projectsheader">Projects</h1>
         <div className="something">
             <div className="ProjectGrid">
             {projectGrid}

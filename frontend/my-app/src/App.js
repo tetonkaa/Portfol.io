@@ -5,6 +5,12 @@ import './App.css';
 import MainPage from "./pages/Main/main";
 import Resume from "./pages/Resume";
 import Projects from "./pages/Projects/index"
+import ContactPage from "./pages/Contact/index"
+
+
+
+
+
 function App() {
   return (
     <>
@@ -12,6 +18,7 @@ function App() {
     <Routes>
     <Route path="/" element={<MainPage/>}/>
     <Route path="/Projects" element={<Projects/>}/>
+    <Route path="/Contact" element={<ContactPage/>}/>
     </Routes>
     </>
   );

@@ -12,6 +12,7 @@
 
 nav{    
     padding: 10vh;
+    padding-bottom:5vh;
     display: flex;
     justify-content: flex-start;
     gap: 35vw;
