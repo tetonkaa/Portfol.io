@@ -1,19 +1,17 @@
 .contactContainer{
-    display: flexbox;
-    Height: 85vh;
+    
+    Height: 75vh;
     border-radius: 8px;
     background: rgba(0, 0, 0, 0.8);
-    margin: 3vw;
     color:white;
-    flex-direction: column;
-    justify-content: center;
-    border: grooved red;
     text-align: center;
-    font-size: 15vh;
-    margin-top: -27vh;
+    font-size: 14vh;
+    
 }
 
 ul {
+    margin-top: -7vw;
+    margin-bottom: 0vw;
     list-style-type: none;
     font-family: michromaregular;
 }

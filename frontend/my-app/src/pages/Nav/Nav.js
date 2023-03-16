@@ -22,7 +22,7 @@ export default function Nav() {
       <div className="linksContainer">
       <Link to="/">Main</Link>
       <Link to='/Projects'>Projects</Link>
-      <a href="/assets/Angel Puente Software Engineer.pdf" >Resume</a>
+      <a target="_blank" href="/assets/Angel Puente Software Engineer.pdf" >Resume</a>
       <Link to='/Contact'>Contact</Link>
       
       </div>
