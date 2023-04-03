@@ -12,6 +12,14 @@
       "git": "https://github.com/tetonkaa/gameq",
       "image": "https://cdn.discordapp.com/attachments/707641558526197790/1070109242381582386/image.png",
       "description": "gameQ is an app designed for twitch streamers to be able to choose games from a large third party api, and be able to present their favorites to their followers!."
+    },
+    {
+      "name": "SVGeezy",
+      "live": "https://svgeezy-production.up.railway.app/dashboard",
+      "git": "https://github.com/tetonkaa/svgeezy",
+      "image": "https://imgur.com/G57EdlV",
+      "description": "Need SVG images files for your next project? Come on in!"
     }
+    
 
   ]
