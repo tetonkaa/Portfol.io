@@ -19,6 +19,13 @@
       "git": "https://github.com/tetonkaa/svgeezy",
       "image": "https://i.imgur.com/G57EdlV.png",
       "description": "Need SVG images for your next project? Come on in!"
+    },
+    {
+      "name": "ShipvsShip",
+      "live": "https://tetonkaa.github.io/ShipVsShip/",
+      "git": "https://github.com/tetonkaa/svgeezy",
+      "image": "https://i.imgur.com/MvXPCtD.png",
+      "description": "Topdown player vs player space shooter made with GML. Controls: Player1- WSAD for movement, R for primary fire and space for secondary. Player2- Directional Keys for movement, primary fire with M."
     }
     
 

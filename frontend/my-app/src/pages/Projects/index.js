@@ -1,5 +1,7 @@
 import './main.css';
 import ProjectsData from '../../data/projects.json'
+
+
 export default function Projects(){
 
     const projectGrid = ProjectsData.map((project) => (
@@ -31,6 +33,7 @@ export default function Projects(){
         <div className="something">
             <div className="ProjectGrid">
             {projectGrid}
+
 
 
             </div>
