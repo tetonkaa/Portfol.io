@@ -21,6 +21,13 @@
       "description": "Topdown player vs player space shooter made with GML. Controls: Player1- WSAD for movement, R for primary fire and space for secondary. Player2- Directional Keys for movement, primary fire with M."
     },
     {
+      "name": "Lightlite",
+      "live": "bridgerco.net",
+      "image": "https://cdn.discordapp.com/attachments/982855119056044042/1111693920397697094/image.png",
+      "description": "Mock (but currently live and functional) retail store showcasing products. Includes chat support functionality, payment processing, and email subscription options."
+       
+    },
+    {
       "name": "gameQ",
       "live": "https://gameq.herokuapp.com/",
       "git": "https://github.com/tetonkaa/gameq",
