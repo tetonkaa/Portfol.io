@@ -22,7 +22,8 @@
     },
     {
       "name": "Lightlite",
-      "live": "bridgerco.net",
+      "git": "https://bridgerco.net/",
+      "live": "https://bridgerco.net/",
       "image": "https://cdn.discordapp.com/attachments/982855119056044042/1111693920397697094/image.png",
       "description": "Mock (but currently live and functional) retail store showcasing products. Includes chat support functionality, payment processing, and email subscription options."
        
