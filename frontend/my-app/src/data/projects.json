@@ -1,4 +1,12 @@
 [
+
+  {
+    "name": "d3fine",
+    "live": "https://www.d3fine.me/",
+    "git": "https://github.com/tetonkaa/d3fine",
+    "image": "https://cdn.discordapp.com/attachments/1073338741919330418/1164647321217269760/image.png?ex=6543f957&is=65318457&hm=43da3a6e5d7aa3b612e9eb50ac21c9875d9f96c1388d8a7f36aa9b65f32949fc&",
+    "description": "React app made to allow users to create personality assessments. Full CRUD / Firebase Authentication (mobile styling on the way!)."
+  },
     {
       "name": "Stop Jockin",
       "live": "https://stopjockin.herokuapp.com/",
