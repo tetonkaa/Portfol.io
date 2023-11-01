@@ -1,118 +1,132 @@
-.logoContainer{
-    height: 160px;
-    background-color: rgb(255, 49, 49);
-    width: 160px;
-    margin-left: 7%;
-    box-shadow: 5vh 2.5vh 900px 25vh rgba(255, 49, 49, 0.4);
-    border-radius: 50%;
-    animation: glow 15s ease infinite;
+.logoContainer {
+  height: 160px;
+  background-color: rgb(255, 49, 49);
+  width: 160px;
+  margin-left: 7%;
+  box-shadow: 5vh 2.5vh 900px 25vh rgba(255, 49, 49, 0.4);
+  border-radius: 50%;
+  animation: glow 15s ease infinite;
+  transition: 0.2s ease-in;
 }
 
-
-
-nav{    
-    padding: 10vh;
-    padding-bottom:5vh;
-    display: flex;
-    justify-content: flex-start;
-    gap: 35vw;
+nav {
+  padding: 10vh;
+  padding-bottom: 5vh;
+  display: flex;
+  justify-content: flex-start;
+  gap: 35vw;
 }
 
-
-.linksContainer{
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 1vh;
-    gap: 8vw;
-    color: rgb(255, 49, 49);
-    font-family: michromaregular;
-    font-size: 1vw;
+.linksContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1vh;
+  gap: 8vw;
+  color: rgb(255, 49, 49);
+  font-family: michromaregular;
+  font-size: 1vw;
 }
 
-.linksContainer p:hover{
-    color: white;
+.linksContainer p:hover {
+  color: white;
 }
 
 @keyframes glow {
-    0% {
-        box-shadow: 1vh 1.5vh 900px 25vh(255, 49, 49, 0.4);
-        background-color: rgb(255, 49, 49);
-    }
-    10%{
-        box-shadow: 1vh 1.5vh 600px 20vh rgb(255, 49, 49, 0.4);
-   }
-    25%{
-        box-shadow: 1vh 1.5vh 900px 25vh rgb(255, 49, 49, 0.4);
-   }
-    45%{
-        box-shadow: 1vh 1.5vh 600px 20vh rgb(255, 49, 49, 0.4);
-        background-color: rgb(255, 49, 49);
-   }
-    60%{
-        box-shadow: 1vh 1.5vh 900px 25vh rgb(255, 49, 49, 0.4);
-   }
-    75%{
-        box-shadow: 1vh 1.5vh 600px 20vh rgb(255, 49, 49, .4);
-        
-   }
-    100%{ 
-        box-shadow: 1vh 1.5vh 900px 25vh rgb(255, 49, 49, 0.4);
-   }
+  0% {
+    box-shadow: 1vh 1.5vh 900px 25vh (255, 49, 49, 0.4);
+    background-color: rgb(255, 49, 49);
+  }
+  10% {
+    box-shadow: 1vh 1.5vh 600px 20vh rgb(255, 49, 49, 0.4);
+  }
+  25% {
+    box-shadow: 1vh 1.5vh 900px 25vh rgb(255, 49, 49, 0.4);
+  }
+  45% {
+    box-shadow: 1vh 1.5vh 600px 20vh rgb(255, 49, 49, 0.4);
+    background-color: rgb(255, 49, 49);
+  }
+  60% {
+    box-shadow: 1vh 1.5vh 900px 25vh rgb(255, 49, 49, 0.4);
+  }
+  75% {
+    box-shadow: 1vh 1.5vh 600px 20vh rgb(255, 49, 49, 0.4);
+  }
+  100% {
+    box-shadow: 1vh 1.5vh 900px 25vh rgb(255, 49, 49, 0.4);
+  }
 }
 
 @keyframes fizzle {
-    0% {
-        transform: skewX(0deg);
-    }
-    95%{
-        transform: skewX(25deg);
-   }
-    
+  0% {
+    transform: skewX(0deg);
+  }
+  95% {
+    transform: skewX(25deg);
+  }
 }
 
 a:link {
-    color: rgb(255, 49, 49);
-    text-decoration: none;
-  }
-
-
-  a:visited {
-    color: rgb(255, 49, 49);
-    text-decoration: none;
-  }
-  
-  a:hover {
-    color: rgb(255, 255, 255);
-  }
-
-  a:active {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-  }
-
-
-  @media screen and (max-width: 1216px) {
-    nav{    
-        padding: 10vh;
-        padding-bottom:40vh;
-        display: flex;
-        flex-direction: column !important;
-        width: 40vh;
-    }
+  color: rgb(255, 49, 49);
+  text-decoration: none;
+  transition: 0.1s ease-in;
 }
 
+a:visited {
+  color: rgb(255, 49, 49);
+  text-decoration: none;
+}
 
-    @media screen and (max-width: 428px) {
-        nav{    
-            padding: 10vh;
-            padding-bottom:40vh;
-            display: flex;
-            flex-direction: column !important;
-            width: 30vh;
-        }
-        .linksContainer{
-            font-size: 1.2vh;
-        }
-    
-    
+a:hover {
+  color: rgb(255, 255, 255);
+  text-shadow: rgb(255, 49, 49) 5px 0 10px;
+}
+
+a:active {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+@media screen and (max-width: 1216px) {
+  nav {
+    padding: 10vh;
+    padding-bottom: 40vh;
+    display: flex;
+    flex-direction: column !important;
+    width: 40vh;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  nav {
+    padding: 0vh;
+    padding-bottom: 20vh;
+    display: flex;
+    flex-direction: column !important;
+    width: 30vh;
+  }
+  .linksContainer {
+    font-size: 1.5vh;
+  }
+
+  .linksContainer {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 1vh;
+    gap: 2vw;
+    margin-left: 35%;
+    width: 62vw;
+    color: rgb(255, 49, 49);
+    font-family: michromaregular;
+  }
+
+  .logoContainer {
+    height: 160px;
+    width: 160px;
+    margin-left: 50%;
+    margin-top: 10%;
+    box-shadow: 5vh 2.5vh 900px 25vh rgba(255, 49, 49, 0.4);
+    border-radius: 50%;
+    animation: glow 15s ease infinite;
+  }
 }

@@ -20,6 +20,7 @@
 
 .headshot{
     border: white solid 8px;
+    border-radius: 10px;
     height: 36vh;
 }
 

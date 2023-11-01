@@ -12,9 +12,10 @@ export default function Nav() {
       <div>
         <div className="logoContainer">
 
-            <div className="Header glitch" data-glitch="AP">
+            <a href="https://www.angel-puente.dev/"><div className="Header glitch" data-glitch="AP">
              AP
             </div>
+            </a>
     
         </div>
       </div>
