@@ -26,13 +26,5 @@
     "git": "https://github.com/tetonkaa/ShipVsShip",
     "image": "../../assets/ProjectScreenShots/ShipVShip.png",
     "description": "Topdown player vs player space shooter made with GML. Controls: Player1- WSAD for movement, R for primary fire and space for secondary. Player2- Directional Keys for movement, primary fire with M."
-  },
-
-  {
-    "name": "gameQ",
-    "live": "https://gameq.herokuapp.com/",
-    "git": "https://github.com/tetonkaa/gameq",
-    "image": "../../assets/ProjectScreenShots/gameQ.png",
-    "description": "gameQ is an app designed for twitch streamers to be able to choose games from a large third party api, and be able to present their favorites to their followers!."
   }
 ]
